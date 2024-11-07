@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resim Bulma</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Resim Arama</title>
 </head>
 <body>
     
+    <div>
+        <div class="form-wrapper">
+            <form id="form">
+                <input id="searchInput" type="text" placeholder="Bir şey ara.."/>
+
+                <div class="button-wrapper">
+                    <button id="searchButton">Ara</button>
+                    <button id="clearButton">Temizle</button>
+                </div>
+            </form>
+        </div>
+        <div class="imagelist-wrapper">
+            <!-- Resimlerimizi tutacak -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
-</html>
+</html> 
